@@ -22,14 +22,14 @@ v0.2 is going on
 * **Testing:** `crop-type: multi-crop`, `base-size: 632`, `crop-size: 600`
 
 #### 1 Performance on Caffe 
-Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test accuracy|test precision|test recall|notes
+Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.98576|0.87011|0.80876|base_line
+resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.985|0.870|0.808|base_line
 
 #### 1 Performance on Pytorch
-Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test accuracy|test precision|test recall|notes
+Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.98576|0.87011|0.80876|base_line
+resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.985|0.870|0.808|base_line
 
 
 
