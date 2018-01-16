@@ -7,10 +7,11 @@
 * v0.2 is is going on.
 
 version |total |train positive|train negative|val positive|val nagative|test positive|test nagative|notes
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 v 0.1|26512|896|2104|869|2131|941|19571|备注
-v0.2 is going on
-计划 3000 张裂缝图像（小图） 1000 张分割图像（大图）   
+
+*v0.2 is going on
+*计划 3000 张裂缝图像（小图） 1000 张分割图像（大图）   
 
 
 ### Classification  performance
