@@ -30,7 +30,7 @@ resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.985|0.870|0
 #### 1 Performance on Pytorch
 Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.985|0.870|0.808|base_line
+resnet18-1-64d|fine-tuning from imagenet model|no crop|0.001|0.0005|1|93|0.986|0.88.40|0.808|base_line
 
 
 
