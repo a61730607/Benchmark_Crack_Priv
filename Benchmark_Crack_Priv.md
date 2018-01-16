@@ -1,0 +1,50 @@
+
+## Priv_Crack-Benchmark
+
+### Priv_Crack_Dataset:
+* The origin data come from CHINA ACADEMY OF RAILWAY SCIENCES, we label the images for classification and segmentation to find the cracks in iamges.
+* v0.1 contain the 26512 railway tunnel images , most of them are nornal images, 
+* v0.2 is is going on.
+
+version |total |train positive|train negative|val positive|val nagative|test positive|test nagative|notes
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+v 0.1|26512|896|2104|869|2131|941|19571|备注
+v0.2 is going on
+计划 3000 张裂缝图像（小图） 1000 张分割图像（大图）   
+
+
+### Classification  performance
+
+* **Environment:**  `cuda: 8.0`, `cudnn: 6.0`, `GPU: titan xp`
+* **Network:** `lr-decay: step`, `fix_bn: False`
+* **Training:** `batch-size: 32`, `epochs: 100`,`base-size: 600`, `crop-size: 600`
+* **validation:** `batch-size: 15`,  `base-size: 600`, `crop-size: 600`
+* **Testing:** `crop-type: multi-crop`, `base-size: 632`, `crop-size: 600`
+
+#### 1 Performance on Caffe 
+Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test accuracy|test precision|test recall|notes
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.98576|0.87011|0.80876|base_line
+
+#### 1 Performance on Pytorch
+Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test accuracy|test precision|test recall|notes
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.98576|0.87011|0.80876|base_line
+
+
+
+
+### Segmentation  performance
+
+
+
+
+
+
+
+
+
+
+
+
+
