@@ -21,7 +21,7 @@ v 0.1|26512|896|2104|869|2131|941|19571|备注
 * **Training:** `batch-size: 32`, `epochs: 100`,`base-size: 600`, `crop-size: 600`
 * **validation:** `batch-size: 15`,  `base-size: 600`, `crop-size: 600`
 * **Testing:** `crop-type: multi-crop`, `base-size: 632`, `crop-size: 600`
-
+* **pre-train:** `fine-tuning from imagenet model`
 #### 1 Performance on Caffe 
 Network|base lr|crop type|weight decay|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
