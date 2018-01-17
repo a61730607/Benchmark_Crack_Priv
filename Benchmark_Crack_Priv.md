@@ -23,15 +23,16 @@ v 0.1|26512|896|2104|869|2131|941|19571|备注
 * **Testing:** `crop-type: multi-crop`, `base-size: 632`, `crop-size: 600`
 
 #### 1 Performance on Caffe 
-Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test acc|test precision|test recall|notes
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18|fine-tuning from imagenet model|12-crop|0.001|0.0005|1|89|0.985|0.870|0.808|base_line
+Network|base lr|crop type|weight decay|val top1|test acc|test precision|test recall|notes
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+resnet18|single-crop|0.001|0.0005|89|0.977|0.727|0.807|base_line
+resnet18|multi-crop|0.001|0.0005|89|0.985|0.870|0.808|
 
 #### 1 Performance on Pytorch
 Network|pretrain type|base lr|crop type|weight decay|train top1|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18-1-64d|fine-tuning from imagenet model|no crop|0.001|0.0005|1|93|0.986|0.884|0.808|base_line
-resnet18-1-64d|fine-tuning from imagenet model|10-crop|0.001|0.0005|1|93|0.986|0.894|0.787|base_line
+resnet18-1-64d|single-crop|0.001|0.0005|93|0.986|0.884|0.808|base_line
+resnet18-1-64d|multi-crop|0.001|0.0005|93|0.986|0.894|0.787|
 
 
 
