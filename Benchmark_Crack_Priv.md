@@ -33,6 +33,7 @@ Network|crop type|base lr|weight decay|val top1|test acc|test precision|test rec
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 resnet18-1x64d|single-crop|0.001|0.0005|0.93|0.986|0.884|0.808|base_line
 resnet18-1x64d|multi-crop|0.001|0.0005|0.93|0.986|0.894|0.787|
+resnet18-1x64d|single-crop|0.001|0.0005|0.927|0.9835|0.8099|0.8374|rotation(-10,10)
 
 
 
