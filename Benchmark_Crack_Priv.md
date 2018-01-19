@@ -31,9 +31,12 @@ resnet18|multi-crop|0.001|0.0005|0.89|0.985|0.870|0.808|
 #### 1 Performance on Pytorch
 Network|crop type|base lr|weight decay|val top1|test acc|test precision|test recall|notes
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-resnet18-1x64d|single-crop|0.001|0.0005|0.93|0.986|0.884|0.808|base_line
-resnet18-1x64d|multi-crop|0.001|0.0005|0.93|0.986|0.894|0.787|
-resnet18-1x64d|single-crop|0.001|0.0005|0.927|0.9835|0.8099|0.8374|rotation(-10,10)
+resnet18-1x64d|single-crop|0.0025|0.0005|0.93|0.986|0.884|0.808|base_line
+resnet18-1x64d|single-crop|0.001 |0.0005|0.92|0.980|0.753|0.850|point：800
+resnet18-1x64d|single-crop|0.00025|0.0005|0.92|0.967|0.60|0.823|point：776
+resnet18-1x64d|single-crop|0.0025|0.0005|0.927|0.9835|0.8099|0.8374|rotation(-10,10)point：788
+resnet18-1x64d|single-crop|0.0025|0.0010|0.927|0.981|0.75|0.88|point：828
+
 
 
 
